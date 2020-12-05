@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <table class="table">
+            <tr>
+                <th>Success</th>
+                <th>Duplicate</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <th>{{@$data['data']['success']}}</th>
+                <th>{{@$data['data']['duplicate']}}</th>
+                <th>{{@$data['data']['total']}}</th>
+            </tr>
+        </table>
+    </body>
+</html>
